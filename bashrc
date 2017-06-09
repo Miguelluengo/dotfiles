@@ -120,18 +120,18 @@ source $GITAWAREPROMPT/main.sh
 export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
 export PATH="$HOME/bin:$PATH"
 
-eval "$(direnv hook bash)"
+#eval "$(direnv hook bash)"
 
-export GOENV_ROOT="$HOME/.goenv"
-export PATH="$GOENV_ROOT/bin:$PATH"
+#export GOENV_ROOT="$HOME/.goenv"
+#export PATH="$GOENV_ROOT/bin:$PATH"
 
-eval "$(goenv init -)"
-export GOPATH=$HOME/.gopath
-export PATH="$PATH:$GOPATH/bin"
+#eval "$(goenv init -)"
+#export GOPATH=$HOME/.gopath
+#export PATH="$PATH:$GOPATH/bin"
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
 
-export NVM_DIR="/home/car/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#export NVM_DIR="/home/car/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
